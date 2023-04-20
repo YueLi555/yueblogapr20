@@ -1,0 +1,29 @@
+
+.aside-projects{
+    background-color: rgb(224, 211, 211);
+    border-radius: 15px;
+}
+
+
+/* footer */
+.footer-projects{
+    width: 980px;
+    height: 50px;
+    margin-top: 1300px;
+}
+
+
+/* footer a tag */
+.footer-a{
+    float: left;
+    margin-left: 100px;
+    text-decoration: none;
+    font-family: 'main-ul-li-font';
+    font-size: 24px;
+    color: black;
+}
+
+.footer-a:hover{
+    background-color: rgb(224, 211, 211);
+    font-family: 'main-ul-li-hover-font';
+}

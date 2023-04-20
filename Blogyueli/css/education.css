@@ -1,0 +1,71 @@
+/* this sytle is for SPECIFIC education page */
+
+/* h1-education */
+.h1-education{
+    width: 560px;
+    height: 50px;
+    text-align: left;
+    margin-top: 26px;
+    font-family: 'main-p-font';
+}
+
+/* img-education */
+.nsc-logo{
+    max-width: 100%;
+    height: auto;
+    background-image: url('../images/nsc-logo.png');
+    background-size: cover;
+    border-radius: 100%;
+}
+
+.nsc-campus{
+    max-width: 560px;
+    height: auto;
+    background-image: url('../images/nsc-campus.jpg');
+    background-size: cover;
+    border-radius: 100%; 
+}
+
+.application-d{
+    max-width: 100%;
+    height:auto;
+    background-image: url('../images/application-development.jpg');
+    background-size: cover;
+    border-radius: 10px;
+}
+
+.program-as{
+    max-width: 100%;
+    height:auto;
+    background-image: url('../images/program-AD.jpg');
+    background-size: cover;
+    border-radius: 10px;
+}
+
+/* aside */
+.education-aside-legend{
+    background-color: rgb(224, 211, 211);
+    border-radius: 15px;
+}
+/* footer tag , footer-education */
+.footer-education{
+    width: 980px;
+    height: 50px;
+    /* background-color: blueviolet; */
+    margin-top: 1250px;
+}
+
+.footer-a{
+    float: left;
+    margin-left: 100px;
+    text-decoration: none;
+    font-family: 'main-ul-li-font';
+    font-size: 24px;
+    color: black;
+    margin-top: 50px;
+}
+
+.footer-a:hover{
+    background-color: rgb(224, 211, 211);
+    font-family: 'main-ul-li-hover-font';
+}

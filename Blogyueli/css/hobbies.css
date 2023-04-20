@@ -1,0 +1,183 @@
+/* this style is for hobbies.html */
+
+/* main-h1 tag */
+.h1-hobbies-reading{
+    width: 560px;
+    height: 50px;
+    text-align: left;
+    margin-top: 0px;
+    font-family:'hobby-h1-font-2';
+    margin-bottom:0px;
+}
+
+.h1-hobbies-movies{
+    width: 560px;
+    height: 50px;
+    text-align: left;
+    margin-top: 150px;
+    font-family:'hobby-h1-font-2';
+    margin-bottom: 0px;
+}
+
+/* h1 pic */
+.h1-hobbies-pic{
+    width: 560px;
+    height: 50px;
+    text-align: left;
+    margin-top: 250px;
+    font-family:'hobby-h1-font-2';
+}
+
+.h1-hobbies-golf{
+    width: 560px;
+    height: 50px;
+    text-align: left;
+    margin-top: 390px;
+    font-family:'hobby-h1-font-2';
+}
+
+.h3-golf-c{
+    font-family: 'main-p-font';
+    margin-top: 140px;
+}
+
+/* main-img of 3 reading boxes */
+.img-reading-s{
+    max-width: 100px;
+    height: 140px;
+    background-image: url('../images/theStranger.jpeg');
+    background-size: cover;
+    border-radius: 10px;
+    float: left;
+    margin-left: 0px;
+}
+
+.img-reading-n{
+    max-width: 100px;
+    height: 140px;
+    background-image: url('../images/nausea_jeanPaulSartre.jpeg');
+    background-size: cover;
+    border-radius: 10px;
+    float: left;
+    margin-left: 133px;
+}
+
+.img-reading-l{
+    max-width: 100px;
+    height:140px;
+    background-image: url('../images/lettresNelsonAlgren.jpeg');
+    background-size: cover;
+    border-radius: 10px;
+    float: left;
+    margin-left: 133px;
+}
+
+/* main-img of 3 reading boxes */
+.img-movies-1{
+    max-width: 100%;
+    height: 300px;
+    background-image: url('../images/mood-for-love.png');
+    background-size: cover;
+    border-radius: 10px;
+    float: left;
+    margin-left: 0px;
+    margin-bottom: 10px;
+}
+.img-movies-2{
+    max-width: 360px;
+    height: 300px;
+    background-image: url('../images/The-Silence-of-the-Lambs.jpg');
+    background-size: cover;
+    border-radius: 10px;
+    float: left;
+    margin-left: 25px;
+    margin-bottom: 10px;
+}
+.img-movies-3{
+    max-width: 140px;
+    height: 150;
+    background-image: url('../images/Pulp-Fiction.webp');
+    background-size: cover;
+    border-radius: 10px;
+    float: left;
+    margin-left: 0px;
+    margin-bottom: 15px;
+}
+.img-movies-4{
+    max-width: 140px;
+    height: 115px;
+    background-image: url('../images/The-Godfather-2.webp');
+    background-size: cover;
+    border-radius: 10px;
+    float: left;
+    margin-left: 5px;
+    margin-bottom: 15px;
+}
+.img-movies-5{
+    max-width: 170px;
+    height: 115px;
+    background-image: url('../images/Scent-of-a-Woman-gif.gif');
+    background-size: cover;
+    border-radius: 10px;
+    float: left;
+    margin-left: 5px;
+    margin-bottom: 15px;
+}
+.img-movies-6{
+    max-width: 90px;
+    height: 115px;
+    background-image: url('../images/chicago.webp');
+    background-size: cover;
+    border-radius: 10px;
+    float: left;
+    margin-left: 5px;
+    margin-bottom: 15px;
+}
+
+/* yueyue */
+.yueyuemoive{
+    max-width: 550px;
+    height: auto;
+    background-image: url('../images/yueyue.jpeg');
+    background-size: cover;
+    border-radius: 5px;
+    float: left;
+    margin-top: 55px;
+    margin-bottom: 20px;
+}
+
+/* video */
+video{
+    border: 2px solid #312525;
+    border-radius: 12px;
+}
+
+/* footer-hobbies */
+.footer-hobbies{
+    width: 980px;
+    height: 50px;
+    /* background-color: blueviolet; */
+    margin-top: 1250px;
+}
+
+/* aside */
+.hobbies-aside-legend{
+    background-color:rgb(224, 211, 211);
+    border-radius: 15px;
+}
+
+/* hobbies, footer-a */
+.footer-a{
+    float: left;
+    margin-left: 100px;
+    text-decoration: none;
+    font-family: 'main-ul-li-font';
+    font-size: 24px;
+    color: black;
+    margin-top: 370px;
+}
+
+.footer-a:hover{
+    background-color: rgb(224, 211, 211);
+    font-family: 'main-ul-li-hover-font';
+}

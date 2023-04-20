@@ -1,0 +1,276 @@
+/* main body tag */
+#body{
+    width: 980px;
+    height: 750px;
+    /* background-color: lightblue; */
+    align-content: center;
+    margin-left: 180px;
+}
+
+/* Google fonts: https://fonts.google.com/ */
+
+/* Here all are from the Google Fonts */
+@font-face {
+    font-family: main-header-font;
+    src: url(../fonts/GajrajOne-Regular.ttf);
+}
+
+@font-face {
+    font-family: main-ul-li-font;
+    src: url(../fonts/Teko-Light.ttf);
+}
+
+@font-face {
+    font-family: main-ul-li-hover-font;
+    src: url(../fonts/Teko-Bold.ttf);
+}
+
+@font-face {
+    font-family: main-header3-font;
+    src: url(../fonts/Rajdhani-Light.ttf);
+}
+
+@font-face {
+    font-family: main-p-font;
+    src: url(../fonts/Mynerve-Regular.ttf);
+}
+
+@font-face {
+    font-family: hobby-h1-font;
+    src: url(../fonts/Inconsolata-VariableFont_wdth\,wght.ttf);
+}
+
+@font-face {
+    font-family: hobby-h1-font-2;
+    src: url(../fonts/JosefinSans-Italic-VariableFont_wght.ttf);
+}
+
+@font-face {
+    font-family: workExper-h1-font;
+    src: url(../fonts/SpaceGrotesk-VariableFont_wght.ttf);
+}
+
+@font-face {
+    font-family: workExper-main-p;
+    src: url(../fonts/Baskervville-Italic.ttf);
+}
+
+@font-face {
+    font-family: workExperience-aside-p;
+    src: url(../fonts/Satisfy-Regular.ttf);
+}
+
+/* for JS */
+
+@font-face {
+    font-family: ver-p-input-js;
+    src: url(../fonts/Comfortaa-VariableFont_wght.ttf);
+}
+
+/* main header 1 tag */
+h1{
+    width: 980px;
+    height: 50px;
+    /* background-color: pink; */
+    text-align: center;
+    margin-top: 0px;
+    font-family: 'main-header-font';
+}
+
+/* main header 3 tag */
+h3{
+    font-family: 'main-header3-font';
+    margin-top: 40px;
+    margin-left: 65px;
+}
+
+/* main ul tag */
+ul{
+    width: 940px;
+    height: 30px;
+    /* background-color: lightgreen; */
+}
+
+/* main ul li tag */
+ul li{
+    float: left;
+    margin-left: 80px;
+    list-style-type: none;
+    color: black;
+    font-family: 'main-ul-li-font';
+    font-size: 24px;
+}
+
+/* ul li :hover */
+li:hover{
+    background-color: rgb(224, 211, 211);
+    font-family: 'main-ul-li-hover-font';
+}
+
+/* main tag */
+main{
+    margin-top: 0px;
+    width: 560px;
+    height: 500px;
+    /* background-color: rgb(237, 232, 232); */
+    float: left;
+    /* border: 2px solid black; */
+    border-radius: 100px;
+}
+
+/* main change to submition */
+.main-submition{
+    width: 560px;
+    height: 50px;
+    text-align: center;
+    color: rgb(192, 111, 111);
+    font-family: 'main-p-font';
+    margin-top: 100px;
+}
+
+/* main img tag */
+/* PLEASE to RESIZE the images size. */
+/* DO NOT use selector for whole page's img tag */
+.me{
+    margin-top: 43px;
+    max-width: 90%;
+    margin-left: 80px;
+    height: auto;
+    background-image: url('../images/me.jpeg');
+    background-size: cover;
+    border-radius: 100%;
+}
+
+/* main p tag */
+p{
+    font-family: 'main-p-font';
+}
+
+/* main aside tag */
+aside{
+    margin-top: 0px;
+    width: 410px;
+    height: 390px;
+    /* background-color: bisque; */
+    float: right;
+    /* border: 2px solid black; */
+    border-radius: 100px;
+}
+
+/*  index aside - fieldset */
+aside fieldset{
+    border-radius: 30px;
+
+    /* no border**** */
+    border: none;
+}
+
+aside fieldset legend{
+    font-family: main-ul-li-font;
+    font-size: 30px;
+}
+
+aside form{
+    margin-top: 10px;
+    margin-left: 75px;
+}
+
+aside form input[type="text"]{
+    font-family: main-header3-font;
+    padding: 12px 20px;
+    margin: 2px 0;
+    font-size: 20px;
+    margin-top: 10px;
+    border: none;
+    border-bottom: 2px solid rgb(224, 211, 211);
+    display: inline-block;
+    box-sizing: border-box;
+    outline: none;
+}
+
+aside form input[type="text"]:hover{
+    /* background-color: rgb(224, 211, 211); */
+    background-color: white;
+}
+
+aside form input[type="content"]{
+    font-family: main-header3-font;
+    padding: 12px 20px;
+    margin: 2px 0;
+    font-size: 20px;
+    margin-top: 10px;
+    box-sizing: border-box;
+    display: inline-block;
+    outline: none;
+    border: 2px solid rgb(224, 211, 211);
+}
+
+/* :focus for input */
+aside form input[type="content"]:focus{
+    border: 3px solid rgb(224, 211, 211);
+}
+
+/* aside form input for  */
+aside form input[type="submit"]{
+    font-family: main-header3-font;
+    display: inline-block;
+    padding: 16px 32px;
+    font-size: 20px;
+    background-color: rgb(224, 211, 211);
+    margin-top: 10px;
+    border: none;
+    text-align: center;
+}
+
+
+/* aside form input submit */
+aside form input[type="submit"]:hover{
+    background-color: #eea4d1;
+}
+
+.form-input-p{
+    font-family: 'ver-p-input-js';
+    color:rgb(187, 83, 83);
+}
+
+/* aside for figure tag */
+figure{
+    font-family: 'main-header3-font';
+}
+
+legend{
+    background-color:rgb(224, 211, 211);
+    border-radius: 15px;
+}
+
+/* aside for address */
+Address{
+    font-family: 'main-header3-font';
+}
+
+
+/* main footer tag */
+footer{
+    width: 980px;
+    height: 50px;
+    /* background-color: blueviolet; */
+    margin-top: 580px;
+    /* margin-left: 40px; */
+}
+
+
+/* footer a tag */
+footer a{
+    float: left;
+    margin-left: 100px;
+    text-decoration: none;
+    font-family: 'main-ul-li-font';
+    font-size: 24px;
+    color: black;
+    margin-top: 85px;
+}
+
+footer a:hover{
+    background-color: rgb(224, 211, 211);
+    font-family: 'main-ul-li-hover-font';
+}

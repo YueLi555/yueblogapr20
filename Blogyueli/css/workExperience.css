@@ -1,0 +1,73 @@
+/* this sytle is for workExperience.html */
+
+/* main-h1 tag */
+.main-h1-workExper{
+    width: 560px;
+    margin-top: 26px;
+    font-family: 'workExper-h1-font';
+    margin-bottom:0px;
+    text-align: left;
+}
+
+.main-h1-workExper-1{
+    width: 560px;
+    margin-top: 0px;
+    font-family: 'workExper-h1-font';
+    margin-bottom:0px;
+    text-align: left;
+}
+
+.main-h3-workExper{
+    margin-top: 0%;
+    text-align: left;
+}
+.workExperience-main-p{
+    font-family: 'workExper-main-p';
+    color: darkred;
+}
+
+.workExperience-aside-h2{
+    text-align: center;
+    color:darkred;
+}
+
+/* aside */
+.aside-workExper{
+    background-color: rgb(224, 211, 211);
+    border-radius: 15px;
+}
+.aside-p-software{
+    color: darkred;
+}
+
+
+.workExperience-aside-p{
+    text-decoration: none;
+    font-family: 'workExperience-aside-p';
+}
+.workExperience-aside-p:hover{
+    background-color: rgb(224, 211, 211);
+    color:rgb(198, 134, 134); 
+}
+
+
+/* footer */
+.footer-workExperience{
+    width: 980px;
+    height: 50px;
+    margin-top: 1300px;
+}
+
+.footer-a{
+    float: left;
+    margin-left: 100px;
+    text-decoration: none;
+    font-family: 'main-ul-li-font';
+    font-size: 24px;
+    color: black;
+}
+
+.footer-a:hover{
+    background-color: rgb(224, 211, 211);
+    font-family: 'main-ul-li-hover-font';
+}
